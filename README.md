@@ -14,14 +14,14 @@ For now, don't worry about accuracy.
 - All you need to do is open the app, click "Start Recording" and then move around.
 - Make sure you have periods of staying still, and periods of moving around.
 - The app will display the number of entries recorded, so you know when you are done.
-- 
+
 ### Task 1
 - Now, you are an analyst from this app's company, who just got the sensor value.
 - You want to know how much movement this user did.
 - Use [Lab Task 1](lab5_task1.py)
 - First, we want to do some data treatment: timestamp is recorded in total seconds, which is not very useful. Subtract the first timestamp's value from every other timestamp,
 - so it looks like 0 seconds, 1 seconds... etc.
-- Then, it will calculate magnitude (the square root of X squared + Y squared + Z squared from your accelerometer)
+- Then, calculate magnitude (the square root of X squared + Y squared + Z squared from your accelerometer)
 - Your job is to plot magnitude vs time.
 - The graph is proof of completion of this task.
 
