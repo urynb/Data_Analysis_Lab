@@ -14,6 +14,8 @@ For now, don't worry about accuracy.
 - All you need to do is open the app, click "Start Recording" and then move around.
 - Make sure you have periods of staying still, and periods of moving around.
 - The app will display the number of entries recorded, so you know when you are done.
+- This will be saved as a .csv file in your "Downloads" directory
+- Move it to your PC. From here, you will use the two python files lab5_task1.py and lab5_task2.py
 
 ### Task 1
 - Now, you are an analyst from this app's company, who just got the sensor value.
