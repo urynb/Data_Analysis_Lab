@@ -24,10 +24,7 @@ threshold = 0
 # when Magnitude > Threshold 
 df['state'] = np.where(df['dev'] > threshold, 'Moving', 'Still')
 
-# plot a pie chart of state proportions
+# plot a pie chart of state proportions using plt
 # you may need to change this code
-counts = df['state'].value_counts()
-plt.figure()
-plt.pie(counts, labels=counts.index, autopct='%1.1f%%')
-plt.title("Time Spent Moving vs Still")
-plt.show()
+
+
